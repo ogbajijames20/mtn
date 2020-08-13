@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#section1{
+    width: 100%;
+    height: 70px;
+    background-color: #ffcc00;
+    }
+#section1 #mtnhynet{
+    padding-top: 4px;
+    margin-left: 250px;
+}
+   #section1 #logo{
+    border:solid 3px;
+    border-color: white;
+    float: left;
+}
+@font-face{
+    font-family: "mtn";
+    src: url("../font/MTNBrighterSans-Regular.otf")
+}
+#section1 #hynet{
+    float: left;
+    font-family: mtn;
+    padding: 20px 3px;
+}
+#section2 #banner{
+    background-image: url("../images/mtnbanner.png");
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+#section2 #banner h4{
+    padding-top: 20px;
+    font-family: mtn;
+    color: white;
+}
+#section2 #noble{
+    background-color: white;
+    margin-top: 50px;
+    float: left;
+    overflow: auto;
+    margin-left: 270px;
+    width: 250px;
+    height: 280px;
+    border-radius:20px; 
+   }
+#section2 #nobex{
+    background-color: #ffcc00;
+    width: 250px;
+    height: 100px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 200%;
+    border-bottom-right-radius: 200%;
+}
+#section2 #nobex p{
+    font-family: mtn;
+    font-size: 20px;
+    padding: 20px;
+    padding-top: 30px;
+}
+#section2 #form{
+    padding-top: 40px;
+}
+#section2 #form #password{
+    border: solid 2px #ffcc00;
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+}
+#section2 #form #button{
+    border: solid 2px #ffcc00;
+    width: 180px;
+    background-color: #ffcc00;
+    border-radius: 20px;
+    padding: 5px;
+}
+#section2 #welcome{
+    float: right;
+    padding-right: 320px;
+    padding-top: 150px;
+}
+#section2 #welcome p{
+    font-family: mtn;
+    color: white;
+    font-size: 40px;
+}
+#section3 #commy{
+    border: block 2px;
+    width:100%;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+    background-color: #dcdcdc;
+}
+#section3 #commy p{
+    text-align: center;
+    font-family: mtn;
+    padding-top: 10px;
+}
+@media(max-width:700px){
+    #section1 #logo{
+        width: 100%;
+        border:solid 3px;
+        border-color: white;
+        float: left;
+    }
+    #section1 #hynet{
+        width: 100%;
+        float: left;
+        font-family: mtn;
+        padding: 20px 3px;
+    }
+    #section2 #noble{
+        width: 100%;
+        background-color: white;
+        margin-top: 50px;
+        float: left;
+        overflow: auto;
+        margin-left: 270px;
+        width: 250px;
+        height: 280px;
+        border-radius:20px; 
+       }
+    #section2 #nobex{
+        width: 100%;
+        background-color: #ffcc00;
+        width: 250px;
+        height: 100px;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 200%;
+        border-bottom-right-radius: 200%;
+    }
+    #section2 #nobex p{
+        width: 100%;
+        font-family: mtn;
+        font-size: 20px;
+        padding: 20px;
+        padding-top: 30px;
+    }
+    #section2 #form{
+        width: 100%;
+        padding-top: 40px;
+    }
+    #section2 #form #password{
+        width: 100%;
+        border: solid 2px #ffcc00;
+        width: 150px;
+        border-radius: 20px;
+        padding: 10px;
+        outline: none;
+    }
+    #section2 #form #button{
+        width: 100%;
+        border: solid 2px #ffcc00;
+        width: 180px;
+        background-color: #ffcc00;
+        border-radius: 20px;
+        padding: 5px;
+    }
+    #section2 #welcome{
+        width: 100%;
+        display: none;
+        /* float: right;
+        padding-right: 320px;
+        padding-top: 150px; */
+    }
+    #section2 #welcome p{
+        width: 100%;
+        display: none;
+        /* font-family: mtn;
+        color: white;
+        font-size: 40px; */
+    }
+    #section3 #commy{
+        border: block 2px;
+        width:100%;
+        height: 60px;
+        margin: auto;
+        text-align: center;
+        background-color: #dcdcdc;
+    }
+    #section3 #commy p{
+        width: 100%;
+        text-align: center;
+        font-family: mtn;
+        padding-top: 10px;
+    }      
+}
